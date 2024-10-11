@@ -97,6 +97,12 @@ historyTab.addEventListener("click", function () {
 
   document.getElementById("expense-form").classList.add("hidden");
   document.getElementById("history-section").classList.remove("hidden");
+
+  document.getElementById("income").value = '';
+  document.getElementById("software").value = '';
+  document.getElementById("courses").value = '';
+  document.getElementById("internet").value = '';
+  document.getElementById("savings").value = '';
 });
 
 const assistantTab = document.getElementById("assistant-tab");
